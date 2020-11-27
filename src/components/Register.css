@@ -1,0 +1,38 @@
+.form-control{
+    width: 400px;
+    height: 30px;
+    border: 2px solid darkgray;
+    margin-top:10px;
+}
+form{
+    border:rgb(1, 0, 12) solid 2px;
+    padding: 40px;
+    margin-top: 35px;
+    margin-left: 380px;
+    margin-right: 485px;
+    color: black;
+    font-weight: 600;
+}
+.btn
+{
+    margin-top: 15px;
+    margin-left: 10px ;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+    background-color: darkgray;
+}
+h1{
+    margin-right:60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center; 
+    color:black;
+    text-shadow: 2px 2px darkgrey; 
+  } 
+.link{
+    color: green;
+    text-decoration: underline;
+    padding-left: 150px;
+    font-weight: 500;
+}

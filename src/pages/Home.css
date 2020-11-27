@@ -1,0 +1,8 @@
+.home{
+    background-image: url(../images/stock1.jpg);
+    background-size:cover;
+    border: 2px solid rgb(163, 134, 134);
+    height: 545px;
+    width: 1366px;
+    display: flex;
+  }
