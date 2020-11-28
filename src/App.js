@@ -7,6 +7,8 @@ import Reports from './pages/Reports';
 import Products from './pages/Products';
 import Login from './components/Login';
 import Register from './components/Register';
+import Dashboard from './pages/Reports';
+import Show from './pages/Show';
 
 
 function App() {
@@ -20,10 +22,12 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home} />
-        <Route path='/reports' component={Reports} />
+        <Route path='/admin' component={Reports} />
         <Route path='/products' component={Products} />
           <Route path ="/login" component={Login}/>
           <Route path ="/register" component={Register}/> 
+          <Route path ="/show" component={Show}/> 
+
 
           </Switch>
     </Router>

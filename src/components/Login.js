@@ -22,7 +22,7 @@ export default function Login() {
               <input type="password" class="form-control" id="exampleInputPassword1" name="pasword1" placeholder="Enter password"/>
             </div>
             
-            <Link to="/Show"><button type="submit" class="btn btn-dark">Login</button></Link>
+            <Link to="/show"><button type="submit" class="btn btn-dark">Login</button></Link>
             <Link className="register" to="/register">Register</Link> 
           </form>
          
